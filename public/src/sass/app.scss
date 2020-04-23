@@ -1,0 +1,87 @@
+@import '~bootstrap/scss/bootstrap.scss';
+
+* {
+    margin: 0 auto;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background: #fff;
+    color: #000;
+    font-size: 18px;
+}
+
+a {
+    text-decoration: none;
+
+}
+
+/** Header **/
+header {
+    background: #000;
+    color: #fff;
+    padding: 1em;
+}
+
+/** Main **/
+main {
+    padding: 2em;
+    background-color: #f7f7f7;
+}
+
+/** Login **/
+.card-login {
+    box-shadow: 0 0.5rem 1rem 0 rgba(0, 0, 0, 0.1);
+    border-radius: 1rem;
+    border: 0;
+
+    .card-body {
+        padding: 2rem;
+
+        .card-title {
+            font-weight: 400;
+            font-size: 1.5em;
+            margin-bottom: 1em;
+        }
+    }
+}
+
+.login-form {
+    width: 100%;
+
+    input {
+        color: #111;
+
+        &:not([type="submit"]) {
+            padding: 1.5em;
+            border-radius: 2em;
+
+            &::placeholder {
+                color: #777;
+            }
+        }
+        
+    }
+    button 
+    {
+        &[type="submit"] {
+            font-size: 80%;
+            border-radius: 5rem;
+            letter-spacing: .1rem;
+            font-weight: bold;
+            padding: 1rem;
+            transition: all 0.2s;
+        }
+    }
+}
+
+/** Sign Up **/
+
+/** Footer **/
+footer {
+    background: #000;
+    color: #fff;
+    padding: 1em;
+    text-align: center;
+}
